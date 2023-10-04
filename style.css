@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 5000px;
+}
+nav{
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    position: fixed;
+    box-shadow: 2px 1px 20px 0px white;
+}
+
+nav .logo{
+    color: #fff;
+    float: left;
+    display: block;
+    padding: 20px 25px;
+}
+nav a,.logo{
+    margin: 0;
+}
+nav a{
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+}
+nav a:hover{
+    transition: 50ms;
+    background-color: #fff;
+    color: black;
+    text-shadow: 0px 0px 9px #000000;
+    border-radius: 50% 100% 50%;
+    box-shadow: 0px 0px 10px 15px white;
+}
+.tela{
+    background-image: radial-gradient(circle, #2b2b2b 0%, #7e7e7e 100%);
+}
+.container_clock{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 70px;
+}
+.clock{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    height: 100px;
+    width: 250px;
+    text-shadow: 5px 5px 10px black;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 0px 20px 2px black;
+}
+
+.contatos, .sobre{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+.contatos a, .sobre a{
+    padding: 10px;
+    display: flex;
+}
+.src-box{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    border-radius: 40px;
+    height: 40px;
+    padding: 10px;
+    box-shadow: 2px 2px 20px 0.5px white;
+}
+.search-btn{
+    color: #ffffff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+.search-btn:hover{
+    transform: rotate(360deg);
+}
+.searchbar{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    text-align: center;
+}
+.searchbar:hover{
+    width: 400px;
+    padding: 0 6px;
+    
+}
+.searchbar:hover > .search-btn{
+    background-color: white;
+
+}
+
+.conteudos{
+    background-color: #ffffff;
+    height: 63vh;
+    margin : 150px 100px 0px 100px;
+    padding: 20px 50px 0px 20px;
+}
+footer a:hover{
+    color: white;
+    transition: 0.5s;
+    text-shadow: 9px 0px 20px #ffffff;
+ }
